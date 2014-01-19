@@ -1,0 +1,24 @@
+{
+  "name": "set-input-value",
+  "version": "0.0.0",
+  "description": "Set input value and keep cursor position",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:parshap/set-input-value.git"
+  },
+  "keywords": [
+    "input",
+    "value",
+    "cursor",
+    "selectionStart",
+    "selectionEnd",
+    "setSelectionRange"
+  ],
+  "author": "Parsha Pourkhomami",
+  "license": "Public Domain",
+  "readmeFilename": "README.md"
+}

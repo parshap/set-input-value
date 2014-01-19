@@ -1,0 +1,21 @@
+<input id="my-input">
+
+<script>
+	module = {};
+</script>
+<script src="index.js"></script>
+<script>
+	var set = module.exports;
+	var input = document.getElementById("my-input");
+
+	// Uppercase the value
+	input.addEventListener("keypress", function() {
+		set(input, input.value.toUpperCase());
+	});
+
+	setTimeout(function() {
+		// Add a prefix and shift the cursor accordingly
+		var prefix = "A: ";
+		set(input, prefix + input.value, prefix.length);
+	}, 2000);
+</script>

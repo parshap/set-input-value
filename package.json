@@ -1,6 +1,6 @@
 {
   "name": "set-input-value",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Set input value and keep cursor position",
   "main": "index.js",
   "scripts": {
